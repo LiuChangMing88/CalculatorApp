@@ -1,50 +1,51 @@
-# Welcome to your Expo app 👋
+<p align="center">
+  <a href="https://www.uit.edu.vn/" title="Trường Đại học Công nghệ Thông tin" style="border: 5;">
+    <img src="https://i.imgur.com/WmMnSRt.png" alt="Trường Đại học Công nghệ Thông tin | University of Information Technology">
+  </a>
+</p>
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+<!-- Title -->
+<h1 align="center"><b>CS526.P11 - Phát triển ứng dụng đa phương tiện trên thiết bị di động</b></h1>
 
-## Get started
+## BẢNG MỤC LỤC
 
-1. Install dependencies
+- [ Giới thiệu môn học](#gioithieumonhoc)
+- [ Giảng viên hướng dẫn](#giangvien)
+- [ Thành viên nhóm](#thanhvien)
+- [ Hướng dẫn chạy](#huongdan)
 
-   ```bash
-   npm install
-   ```
+## GIỚI THIỆU MÔN HỌC
 
-2. Start the app
+<a name="gioithieumonhoc"></a>
 
-   ```bash
-    npx expo start
-   ```
+- **Tên môn học**: Phát triển ứng dụng đa phương tiện trên thiết bị di động
+- **Mã môn học**: CS526.P11
+- **Năm học**: 2024-2025
 
-In the output, you'll find options to open the app in a
+## GIẢNG VIÊN HƯỚNG DẪN
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+<a name="giangvien"></a>
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- Ths **Phạm Nguyễn Tường An**
 
-## Get a fresh project
+## THÀNH VIÊN NHÓM
 
-When you're ready, run:
+<a name="thanhvien"></a>
+| STT | MSSV | Họ và Tên | Email |
+| --- | ---- | --------- | ----- |
+| 1   | 22520914 | Làu Trường Minh | 22520864@gm.uit.edu.vn |
+| 2   | 22520673 | Huỳnh Ngọc Bảo Long | 22520811@gm.uit.edu.vn |
+| 3   | 22520864 | Trần Nguyễn Anh Phong | 22521092@gm.uit.edu.vn |
 
-```bash
-npm run reset-project
+## HƯỚNG DẪN CHẠY
+<a name="huongdan"></a>
+
+#### Ta chạy các dòng lệnh sau:
+
+
 ```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+git clone https://github.com/LiuChangMing88/CalculatorApp
+cd CalculatorApp
+yarn install
+npx expo start
+```
